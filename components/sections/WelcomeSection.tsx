@@ -21,7 +21,7 @@ export default function WelcomeSection() {
       {/* --- BAGIAN ATAS (Latar Belakang Cream) --- */}
       <div className='bg-[var(--color-background)] py-12 md:py-16'>
         <Container>
-          <div className='max-w-4xl'>
+          <div className='max-w-4xl px-5'>
             {/* Headline Hijau di referensi -> Jadi Merah (Primary) */}
             <h2 className='text-2xl md:text-3xl font-bold text-[var(--color-primary)] font-[family-name:var(--font-heading)]'>
               {content.topHeadline}
@@ -70,7 +70,7 @@ export default function WelcomeSection() {
       {/* Latar Kuning di referensi -> Jadi Kuning/Oranye Branding (Secondary) */}
       <div className='bg-black/70 py-16 md:py-24'>
         <Container>
-          <div className='max-w-4xl'>
+          <div className='max-w-4xl px-5'>
             {/* Headline Besar Hijau di referensi -> Jadi Merah (Primary) untuk kontras */}
             <h2 className='text-3xl md:text-5xl font-bold text-white mb-6 leading-tight font-[family-name:var(--font-heading)]'>
               {content.bannerHeadline}
