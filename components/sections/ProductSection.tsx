@@ -22,7 +22,8 @@ export default function ProductSection() {
           </h2>
           <p className='text-gray-600'>
             Kami menyediakan sembako murah untuk kebutuhan toko, warung, UMKM,
-            hingga reseller. Semua produk tersedia dalam jumlah besar.
+            hingga reseller. Semua produk tersedia dalam jumlah besar dan siap
+            dikirim ke seluruh Indonesia
           </p>
         </div>
 

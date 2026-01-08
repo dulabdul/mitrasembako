@@ -2,7 +2,7 @@
 
 export const SITE_CONFIG = {
   name: "Mitra Sembako",
-  description: "Pusat Grosir Sembako Termurah & Terlengkap di Indonesia",
+  description: "Pusat grosir sembako termurah. Stok lengkap, siap kirim seluruh Indonesia",
   whatsapp: "6281234567890", // Ganti nomor asli
   email: "info@mitrasembako.web.id",
   address: "Jakarta, Indonesia",
@@ -49,26 +49,26 @@ export const CONTENT = {
   // BAGIAN INI YANG SEBELUMNYA HILANG:
   cta: {
     headline: "Mulai Belanja Sembako Grosir Termurah Sekarang!",
-    subheadline: "Dapatkan penawaran terbatas untuk pembelian besar! Jaminan stok aman dan pengiriman cepat.",
+    subheadline: "Dapatkan penawaran terbatas untuk pembelian besar! Setiap transaksi grosir akan mendapatkan harga ekstra murah dengan jaminan stok aman dan pengiriman cepat ke seluruh Indonesia",
     buttonText: "Hubungi Kami Sekarang"
   },
   testimonials: [
     { 
-      name: "Budi Santoso", 
+      name: "Bernard Siregar", 
       role: "Pemilik Toko Kelontong, Surabaya", 
-      text: "Harga di Mitra Sembako sangat bersaing, margin keuntungan toko saya jadi lebih besar. Pengiriman cepat sampai Surabaya.", 
+      text: "Harga grosirnya memang paling murah. Packing aman dan rapi", 
       image: "/images/face2.jpg" 
     },
     { 
-      name: "Siti Aminah", 
+      name: "Ani Purwa", 
       role: "Pengusaha Katering, Jakarta", 
-      text: "Kualitas barang terjamin, Minyak Kita selalu ready stok. Sangat membantu usaha katering saya yang butuh bahan baku stabil.", 
+      text: "Sudah langganan 2 tahun. Cocok untuk toko kecil seperti saya", 
       image: "/images/face1.jpg" 
     },
     { 
       name: "Regita", 
       role: "Agen Sembako, Medan", 
-      text: "Pelayanan ramah dan profesional. Awalnya ragu beli online, tapi sekarang sudah langganan bulanan. Recommended!", 
+      text: "Adminnya ramah, info jelas, dan transaksi mudah. Mantap", 
       image: "/images/face3.jpg" 
     }
   ]

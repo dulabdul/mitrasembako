@@ -14,12 +14,9 @@ export default function WhyChooseUs() {
       <Container>
         <div className='text-center max-w-3xl mx-auto mb-16'>
           <h2 className='text-3xl md:text-4xl font-bold mb-4 font-[family-name:var(--font-heading)]'>
-            Mengapa Memilih Kami?
+            Keunggulan Layanan Kami
           </h2>
-          <p className='text-gray-600 text-lg'>
-            Kami berdedikasi memberikan pelayanan terbaik untuk kelancaran
-            bisnis Anda.
-          </p>
+          <p className='text-gray-600 text-lg'>www.mitrasembako.web.id</p>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>

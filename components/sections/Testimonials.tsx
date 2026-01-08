@@ -9,11 +9,9 @@ export default function Testimonials() {
       <Container>
         <div className='text-center mb-16'>
           <h2 className='text-3xl md:text-4xl font-bold mb-4 font-[family-name:var(--font-heading)]'>
-            Apa Kata Mereka?
+            Testimoni Pelanggan
           </h2>
-          <p className='text-gray-600'>
-            Kepercayaan pelanggan adalah bukti komitmen kami.
-          </p>
+          <p className='text-gray-600'>Apa kata pelanggan tentang kami?</p>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
