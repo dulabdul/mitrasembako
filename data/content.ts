@@ -56,20 +56,20 @@ export const CONTENT = {
     { 
       name: "Bernard Siregar", 
       role: "Pemilik Toko Kelontong, Surabaya", 
-      text: "Harga grosirnya memang paling murah. Packing aman dan rapi", 
-      image: "/images/face2.jpg" 
+      text: "Harga grosirnya juara, dibanding tempat lain ini paling masuk akal. Barang juga selalu dipacking rapi dan aman sampai toko.", 
+      image: "/images/face_1.jpg" 
     },
     { 
       name: "Ani Purwa", 
       role: "Pengusaha Katering, Jakarta", 
-      text: "Sudah langganan 2 tahun. Cocok untuk toko kecil seperti saya", 
-      image: "/images/face1.jpg" 
+      text: "Udah langganan hampir 2 tahun dan sejauh ini nggak pernah kecewa. Cocok banget buat toko kecil kayak punya saya, stok aman dan lancar.", 
+      image: "/images/face_2.jpg" 
     },
     { 
       name: "Regita", 
       role: "Agen Sembako, Medan", 
-      text: "Adminnya ramah, info jelas, dan transaksi mudah. Mantap", 
-      image: "/images/face3.jpg" 
+      text: "Adminnya fast response, ramah, dan penjelasannya gampang dipahami. Transaksi juga simpel, nggak ribet. Recommended banget.", 
+      image: "/images/face_3.jpg" 
     }
   ]
 };

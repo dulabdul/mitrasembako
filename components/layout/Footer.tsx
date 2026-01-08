@@ -23,8 +23,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className='text-sm text-gray-400 leading-relaxed'>
-              {SITE_CONFIG.description}. Kami melayani pengiriman ke seluruh
-              Indonesia dengan jaminan kualitas terbaik.
+              {SITE_CONFIG.description}.
             </p>
           </div>
 
