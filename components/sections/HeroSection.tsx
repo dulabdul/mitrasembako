@@ -1,26 +1,25 @@
 import Image from 'next/image';
 import Container from '../ui/Container';
+import { CONTENT } from '@/data/content';
 
 export default function HeroSection() {
   return (
-    <section className='relative w-full aspect-[21/9] bg-gray-100 overflow-hidden'>
-      {/* Placeholder for User Banner */}
-      <div className='absolute inset-0'>
-        <Image
-          src='/images/hero.jpg' // User akan ganti ini
-          alt='Mitra Sembako Banner Utama'
-          fill
-          className='object-cover object-center'
-          priority
-          sizes='100vw'
-          quality={90}
-        />
-        {/* Overlay gradient agar text navbar terbaca jika banner terang */}
-        <div className='absolute inset-0 bg-gradient-to-b from-black/10 to-transparent' />
-      </div>
-
-      {/* Konten Hero opsional jika banner hanya gambar polos, 
-            tapi user minta purely image banner, jadi kosongkan content */}
+    // Menggunakan py-6 md:py-10 untuk memberi jarak dari Navbar (sesuai referensi desktop)
+    <section className='bg-white py-6 md:py-10'>
+      <Container>
+        {/* Wrapper untuk rounded corners dan shadow halus */}
+        <div className='relative w-full overflow-hidden rounded-2xl md:rounded-3xl shadow-sm border border-gray-100'>
+          <Image
+            src='/images/hero.jpg' // Pastikan Anda ganti file ini dengan banner asli Anda
+            alt={CONTENT.hero.alt}
+            width={1280}
+            height={600} // Estimasi rasio banner dari screenshot, akan auto-adjust karena class w-full h-auto
+            className='w-full h-auto object-cover'
+            priority // Load prioritas tinggi untuk LCP (Largest Contentful Paint)
+            sizes='(max-width: 768px) 100vw, 1280px'
+          />
+        </div>
+      </Container>
     </section>
   );
 }
