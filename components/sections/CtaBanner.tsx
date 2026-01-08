@@ -5,11 +5,6 @@ import { CONTENT, SITE_CONFIG } from '@/data/content';
 export default function CtaBanner() {
   return (
     <section className='relative py-24 overflow-hidden'>
-      {/* Background Image (Placeholder) */}
-      <div
-        className="absolute inset-0 bg-[url('/images/cta-bg.jpg')] bg-cover bg-center bg-fixed"
-        aria-hidden='true'
-      />
       {/* Overlay */}
       <div className='absolute inset-0 bg-black/70' />
 
