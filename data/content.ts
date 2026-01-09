@@ -3,7 +3,7 @@
 export const SITE_CONFIG = {
   name: "Mitra Sembako",
   description: "Pusat grosir sembako termurah. Stok lengkap, siap kirim seluruh Indonesia",
-  whatsapp: "6281234567890", // Ganti nomor asli
+  whatsapp: "6287760400325", // Ganti nomor asli
   email: "info@mitrasembako.web.id",
   address: "Jakarta, Indonesia",
   url: "https://www.mitrasembako.web.id"

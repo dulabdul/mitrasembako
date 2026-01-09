@@ -2,7 +2,6 @@
 
 import Container from '../ui/Container';
 import Button from '../ui/Button';
-import { MessageCircle } from 'lucide-react';
 import { SITE_CONFIG } from '@/data/content';
 
 export default function WelcomeSection() {
